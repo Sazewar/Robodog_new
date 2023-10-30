@@ -1,0 +1,103 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 30-AUG-2023  1:47:18 AM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Sergei.Satsevich\Desktop\Псина2\Шестерня_25з_2м.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP203
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        Деталь
+! SUMMARY-  Date             Unknown
+! SUMMARY-  Author           UNSPECIFIED
+! SUMMARY-  Organization     UNSPECIFIED
+! SUMMARY-  Pre_Version      C3D Converter
+! SUMMARY-  Orig_System      C3D Toolkit
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    152
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  approval ...................................................:      1
+! SUMMARY-  approval_date_time .........................................:      1
+! SUMMARY-  approval_status ............................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:    153
+! SUMMARY-  b_spline_curve_with_knots ..................................:    300
+! SUMMARY-  calendar_date ..............................................:      2
+! SUMMARY-  cartesian_point ............................................:   9603
+! SUMMARY-  cc_design_approval .........................................:      1
+! SUMMARY-  cc_design_date_and_time_assignment .........................:      1
+! SUMMARY-  circle .....................................................:    100
+! SUMMARY-  closed_shell ...............................................:      1
+! SUMMARY-  coordinated_universal_time_offset ..........................:      2
+! SUMMARY-  cylindrical_surface ........................................:     50
+! SUMMARY-  date_and_time ..............................................:      2
+! SUMMARY-  date_time_role .............................................:      1
+! SUMMARY-  design_context .............................................:      1
+! SUMMARY-  direction ..................................................:    556
+! SUMMARY-  edge_curve .................................................:    450
+! SUMMARY-  edge_loop ..................................................:    152
+! SUMMARY-  face_bound .................................................:    152
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:    150
+! SUMMARY-  local_time .................................................:      2
+! SUMMARY-  manifold_solid_brep ........................................:      1
+! SUMMARY-  mechanical_context .........................................:      1
+! SUMMARY-  oriented_edge ..............................................:    900
+! SUMMARY-  plane ......................................................:      2
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:      1
+! SUMMARY-  product_definition .........................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:      1
+! SUMMARY-  product_definition_shape ...................................:      1
+! SUMMARY-  product_related_product_category ...........................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  surface_of_linear_extrusion ................................:    100
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      1
+! SUMMARY-  vector .....................................................:    250
+! SUMMARY-  vertex_point ...............................................:    300
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          13399
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 30-AUG-2023 1:47:18 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-AUG-2023  1:47:18 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 13
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sergei.Satsevich\Desktop\Псина2\Шестерня_25з_2м_stp.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         1
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         1
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 30-AUG-2023  1:47:19 AM
+! INFO-      
