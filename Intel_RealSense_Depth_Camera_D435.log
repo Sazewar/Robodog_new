@@ -1,0 +1,952 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 16-NOV-2023  3:00:05 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Sazewar\Desktop\DS\Robodog_new\Intel_RealSense_Depth_Camera_D435.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        D435_RELEASE_ASM_ASM
+! SUMMARY-  Date             2017-10-02T
+! SUMMARY-  Author           wkho
+! SUMMARY-  Organization     INTEL
+! SUMMARY-  Pre_Version      CREO PARAMETRIC BY PTC INC, 2015380
+! SUMMARY-  Orig_System      CREO PARAMETRIC BY PTC INC, 2015380
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:     31
+! SUMMARY-  advanced_face ..............................................:  11789
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  approval ...................................................:      1
+! SUMMARY-  approval_date_time .........................................:      1
+! SUMMARY-  approval_person_organization ...............................:      1
+! SUMMARY-  approval_role ..............................................:      1
+! SUMMARY-  approval_status ............................................:      1
+! SUMMARY-  axis1_placement ............................................:     25
+! SUMMARY-  axis2_placement_3d .........................................:  19497
+! SUMMARY-  b_spline_curve_with_knots ..................................:   2279
+! SUMMARY-  b_spline_surface_with_knots ................................:     79
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     64
+! SUMMARY-  brep_with_voids ............................................:      2
+! SUMMARY-  calendar_date ..............................................:      1
+! SUMMARY-  cartesian_point ............................................: 103789
+! SUMMARY-  cc_design_approval .........................................:      1
+! SUMMARY-  cc_design_date_and_time_assignment .........................:      2
+! SUMMARY-  cc_design_person_and_organization_assignment ...............:      4
+! SUMMARY-  cc_design_security_classification ..........................:      1
+! SUMMARY-  circle .....................................................:   7729
+! SUMMARY-  closed_shell ...............................................:     39
+! SUMMARY-  conical_surface ............................................:   1659
+! SUMMARY-  context_dependent_shape_representation .....................:     52
+! SUMMARY-  conversion_based_unit_and_plane_angle_unit .................:     46
+! SUMMARY-  coordinated_universal_time_offset ..........................:      1
+! SUMMARY-  cylindrical_surface ........................................:   2377
+! SUMMARY-  date_and_time ..............................................:      1
+! SUMMARY-  date_time_role .............................................:      2
+! SUMMARY-  design_context .............................................:     23
+! SUMMARY-  direction ..................................................:  61189
+! SUMMARY-  edge_curve .................................................:  32149
+! SUMMARY-  edge_loop ..................................................:  12396
+! SUMMARY-  face_bound .................................................:    607
+! SUMMARY-  face_outer_bound ...........................................:  11789
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     46
+! SUMMARY-  item_defined_transformation ................................:     52
+! SUMMARY-  length_unit_and_si_unit ....................................:     46
+! SUMMARY-  line .......................................................:  22168
+! SUMMARY-  local_time .................................................:      1
+! SUMMARY-  manifold_solid_brep ........................................:     29
+! SUMMARY-  mechanical_context .........................................:     46
+! SUMMARY-  next_assembly_usage_occurrence .............................:     52
+! SUMMARY-  organization ...............................................:      1
+! SUMMARY-  oriented_closed_shell ......................................:      8
+! SUMMARY-  oriented_edge ..............................................:  64298
+! SUMMARY-  person .....................................................:      1
+! SUMMARY-  person_and_organization ....................................:      1
+! SUMMARY-  person_and_organization_role ...............................:      4
+! SUMMARY-  plane ......................................................:   7465
+! SUMMARY-  plane_angle_measure_with_unit ..............................:     46
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     46
+! SUMMARY-  product ....................................................:     46
+! SUMMARY-  product_category ...........................................:      2
+! SUMMARY-  product_category_relationship ..............................:      2
+! SUMMARY-  product_definition .........................................:     46
+! SUMMARY-  product_definition_formation_with_specified_source .........:     46
+! SUMMARY-  product_definition_shape ...................................:     98
+! SUMMARY-  product_related_product_category ...........................:      2
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     52
+! SUMMARY-  security_classification ....................................:      1
+! SUMMARY-  security_classification_level ..............................:      1
+! SUMMARY-  shape_representation .......................................:     15
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     46
+! SUMMARY-  spherical_surface ..........................................:     39
+! SUMMARY-  surface_of_linear_extrusion ................................:      2
+! SUMMARY-  surface_of_revolution ......................................:     25
+! SUMMARY-  toroidal_surface ...........................................:     79
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     46
+! SUMMARY-  vector .....................................................:  22170
+! SUMMARY-  vertex_point ...............................................:  20767
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         405424
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 16-NOV-2023 3:00:06 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:06 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 405406
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\BARCODE_AWG_8
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:07 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 405181
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\PIN_STEEL_ZINC_PLATED_11
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:07 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 404896
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AUX_COVER_ALUMINUM_AWG_W_RGB_61
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:07 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 402943
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\SCREW_TORX_M2_X_5L_6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:08 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 396933
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\MAGNET_9
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:08 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 396648
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\REAR_COVER_ALUMINUM_AWG_RGB_121
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:09 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 392027
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\20708-050E_PLUG_ASSY_3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:09 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 342893
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_ASIC_BACKER_2_84
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:10 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 342710
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\ID_50_PIN_20709-050EC_PAD_4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:12 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 229742
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_ASIC_BACKER_1_77
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:12 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 229559
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_ASIC_FLEX_33
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:12 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\00_AWG_ASIC_FLEX_SKEL_38
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:12 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 227722
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\SCREW_M1-6_4L_4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:12 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 225998
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\PASTE_THERMAL_IR_AWG_W_RGB_7
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:12 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 225815
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 212330 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -2.968489 -9.490164 -11.288394
+! INFO-     Degeneracy in b-spline entity 212840 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -3.285965 -9.078650 -11.186123
+! INFO-     Degeneracy in b-spline entity 213681 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         3.118293 -9.071033 -11.046147
+! INFO-     Degeneracy in b-spline entity 213385 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         2.817001 -9.487858 -11.169031
+! INFO-     Degeneracy in b-spline entity 213547 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         3.118235 -8.987935 -10.778806
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\HEATSINK_AWG_W_RGB_24
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:13 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 210815
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\BRACKET_RGB_MODULE_AWG_W_RGB_46
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:13 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 207957
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_RGB_CAMERA_FLEX_SHEETMETAL_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:13 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 206648
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_RGB_CAMERA_BOARD_22
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:13 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 204923
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing face-face inconsistency faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_RGB_CAMERA_5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:14 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 198487
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_RGB_CAMERA_MERGED_5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:15 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\00_AWG_RGB_CAMERA_SKEL_31
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:15 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 194188
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\ADHESIVE_LABEL_CAMERA_DS5_AWG_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:15 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 193395
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\LABEL_CAMERA_DS5_AWG_36
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:15 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 191884
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\B2B_BRACKET_AWG_W_RGB_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:15 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 189815
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing face-face inconsistency faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\20709-050E_RECE_ASSY_3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:18 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 82724
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing face-face inconsistency faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\MODULE_CAMERA_DS5_AWG_RGB_6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:19 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33768
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_STIFFENER_FRONT_BEZEL_1_18
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:19 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 31759
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_ADHESIVE_FRONT_BEZEL_1_18
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:19 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 29748
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AWG_FOAM_FRONT_BEZEL_RIGHT_49
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:19 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 27710
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\ADHESIVE_LENS_AWG_RGB_23
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:19 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 27049
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\MASK_LENS_AWG_RGB_43
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:19 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 26417
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\LENS_COVER_AWG_RGB_44
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:20 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 26125
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing face-face inconsistency faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  solid body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\FRONT_COVER_ALUMINUM_AWG_W_RGB_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:21 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\00_AWG_A2_SKEL_39
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              0
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:21 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\LENS_MASK_AWG_RGB_ASM_6_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:21 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\LENS_COVER_SUBASSY_AWG_W_RGB_AS_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:21 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\FOAM_ISOLATION_CARRIER_AWG_RGB__ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:21 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\20708-050EC_20709-050EC_MATIN_1_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:21 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\LABEL_CAMERA_DS5_AWG_ASM_40_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:22 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\CAMERA_MOD_DS5_AWG_ASM_46_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:22 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\DS5_RGB_MODULE_ASM_13_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              6
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:22 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\FPC_DS5_DK_ASIC_AWG_STEREO_IM_1_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              6
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:22 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\REAR_COVER_SUBASSY_AWG_W_RGB_AS_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:22 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\AUX_COVER_SUBASSY_AWG_W_RGB_ASM_ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:22 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\000_TA_DS5_DEV_KIT_AWG_RGB_ASM__ASM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    18
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             18
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-NOV-2023  3:00:23 PM
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\Intel_RealSense_Depth_Camera_D435_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        31
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        29
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         2
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 16-NOV-2023  3:00:23 PM
+! INFO-      
