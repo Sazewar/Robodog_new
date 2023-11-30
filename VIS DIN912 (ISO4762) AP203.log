@@ -1,0 +1,459 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 30-NOV-2023  3:42:03 AM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\Sazewar\Desktop\DS\Robodog_new\VIS DIN912 (ISO4762) AP203.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      HOOPS Exchange Step
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        /private/var/mobile/Containers/Data/Application/8F035731-E293-4E5E-B280-FBC8732E14BC/tmp/export/temp_export
+! SUMMARY-  Date             2020-12-12T10:35:56+01:00
+! SUMMARY-  Author           mobile
+! SUMMARY-  Organization     Shapr3D Limited
+! SUMMARY-  Pre_Version      HOOPS Exchange 2020.2
+! SUMMARY-  Orig_System      Shapr3D
+! SUMMARY-  Authorization    Authorized
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   5283
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:   5995
+! SUMMARY-  b_spline_curve_with_knots ..................................:   1995
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:   6129
+! SUMMARY-  b_spline_surface_with_knots ................................:    345
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    312
+! SUMMARY-  cartesian_point ............................................: 3638772
+! SUMMARY-  circle .....................................................:   1338
+! SUMMARY-  closed_shell ...............................................:    100
+! SUMMARY-  conical_surface ............................................:    154
+! SUMMARY-  context_dependent_shape_representation .....................:     15
+! SUMMARY-  conversion_based_unit_and_plane_angle_unit .................:     16
+! SUMMARY-  cylindrical_surface ........................................:   3132
+! SUMMARY-  dimensional_exponents ......................................:     16
+! SUMMARY-  direction ..................................................:  17096
+! SUMMARY-  draughting_model ...........................................:     16
+! SUMMARY-  edge_curve .................................................:  14568
+! SUMMARY-  edge_loop ..................................................:   5522
+! SUMMARY-  face_bound .................................................:   5522
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     16
+! SUMMARY-  item_defined_transformation ................................:     15
+! SUMMARY-  length_unit_and_si_unit ....................................:     16
+! SUMMARY-  line .......................................................:   5106
+! SUMMARY-  manifold_solid_brep ........................................:    100
+! SUMMARY-  next_assembly_usage_occurrence .............................:     15
+! SUMMARY-  open_shell .................................................:     22
+! SUMMARY-  oriented_edge ..............................................:  28947
+! SUMMARY-  plane ......................................................:   1167
+! SUMMARY-  plane_angle_measure_with_unit ..............................:     16
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     16
+! SUMMARY-  product ....................................................:     16
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:     16
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:     16
+! SUMMARY-  product_definition_shape ...................................:     31
+! SUMMARY-  product_related_product_category ...........................:     16
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     15
+! SUMMARY-  shape_representation .......................................:     16
+! SUMMARY-  shell_based_surface_model ..................................:     22
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     16
+! SUMMARY-  toroidal_surface ...........................................:    173
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     16
+! SUMMARY-  vector .....................................................:   5106
+! SUMMARY-  vertex_point ...............................................:   9738
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                        3756962
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 30-NOV-2023 3:42:16 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-NOV-2023  3:42:19 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3757708
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\03736296
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  View ........................:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-NOV-2023  3:42:23 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3736271
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\03699760
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  View ........................:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-NOV-2023  3:42:28 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3699735
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\03654143
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  View ........................:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-NOV-2023  3:42:34 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3654118
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\03598502
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  View ........................:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-NOV-2023  3:42:42 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3598477
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\03531737
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  View ........................:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-NOV-2023  3:42:49 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3531712
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13818 - RTSTVC: Vertex not on curve.
+! WARNING-  solid body contains fault: 13818 - RTSTVC: Vertex not on curve.
+! WARNING-  solid body (DIN7991 M3x30mm (12)) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\03446369
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  View ........................:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-NOV-2023  3:42:53 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3446344
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13822 - RTSTVS: Vertex not on surface.
+! WARNING-  solid body (DIN7991 M3x30mm (13)) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\Sazewar\Desktop\DS\Robodog_new\03325003
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  View ........................:     1
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 30-NOV-2023  3:43:02 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2838625
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body (DIN912 M4x5mm) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2843607
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body (DIN912 M4x6mm) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2851426
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body (DIN912 M4x8mm) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2862696
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body (DIN912 M4x10mm) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2878081
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body (DIN912 M4x12mm) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2903459
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body (DIN912 M4x16mm) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2934641
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2972441
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body (DIN912 M4x20mm) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3018666
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3076505
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body (DIN912 M4x25mm) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3158560
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-intersecting topology.
+! WARNING-  solid body contains fault: 13804 - RTSTSX: Self-inter
