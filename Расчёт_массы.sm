@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="1.0.8348.30405"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="144">
+    <identity>
+      <id>ace41fc8-2c9b-4a8a-b535-727ccef66f98</id>
+      <revision>2</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <approximateEqualAccuracy>0</approximateEqualAccuracy>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="1.0.8348.30405" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.11.8348.30405" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="279" top="198" width="214" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">бедро</e>
+          <e type="operand">0.65</e>
+          <e type="operand">0.567</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.217</e>
+        </result>
+      </math>
+    </region>
+    <region left="279" top="225" width="238" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ляжка</e>
+          <e type="operand">2.9855</e>
+          <e type="operand">0.567</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">3.5525</e>
+        </result>
+      </math>
+    </region>
+    <region left="306" top="252" width="126" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">голень</e>
+          <e type="operand">1.4164</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="297" top="279" width="102" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">тело</e>
+          <e type="operand">5</e>
+          <e type="operand">15</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="207" top="324" width="436" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">общяя_масса</e>
+          <e type="operand">тело</e>
+          <e type="operand">4</e>
+          <e type="operand">бедро</e>
+          <e type="operand">ляжка</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">голень</e>
+          <e type="operator" args="2">+</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">44.7436</e>
+        </result>
+      </math>
+    </region>
+  </regions>
+</worksheet>
