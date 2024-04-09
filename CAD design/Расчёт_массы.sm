@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?application progid="SMath Studio Desktop" version="1.0.8348.30405"?>
 <worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
-  <settings ppi="144">
+  <settings ppi="96">
     <identity>
       <id>ace41fc8-2c9b-4a8a-b535-727ccef66f98</id>
-      <revision>2</revision>
+      <revision>4</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -94,6 +94,98 @@
         </input>
         <result action="numeric">
           <e type="operand">44.7436</e>
+        </result>
+      </math>
+    </region>
+    <region left="252" top="369" width="241" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">бедро</e>
+          <e type="operand">ляжка</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">голень</e>
+          <e type="operator" args="2">+</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">6.1859</e>
+        </result>
+      </math>
+    </region>
+    <region left="117" top="396" width="301" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">нога1</e>
+          <e type="operand">бедро</e>
+          <e type="operand">ляжка</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">голень</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">6.1859</e>
+        </result>
+      </math>
+    </region>
+    <region left="279" top="450" width="158" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">голень_new</e>
+          <e type="operand">0.5169</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="252" top="477" width="206" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">бедро_new</e>
+          <e type="operand">1.1366</e>
+          <e type="operand">0.567</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="126" top="522" width="365" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">нога2</e>
+          <e type="operand">бедро</e>
+          <e type="operand">бедро_new</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">голень_new</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">3.4375</e>
+        </result>
+      </math>
+    </region>
+    <region left="162" top="594" width="173" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">нога1</e>
+          <e type="operand">нога2</e>
+          <e type="operator" args="2">-</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.7484</e>
+        </result>
+      </math>
+    </region>
+    <region left="117" top="630" width="177" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">нога1</e>
+          <e type="operand">нога2</e>
+          <e type="operator" args="2">-</e>
+          <e type="operand">нога1</e>
+          <e type="operator" args="2">/</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.4443</e>
         </result>
       </math>
     </region>
